@@ -13,7 +13,9 @@ This grammar
 illustrates a typical LALR conflict due to a 
 bad grammar design. The conflict between productions ds -> 'D ';' ds
 and ds -> 'D' can be easily solved by changing the second production
-to  ds -> 'ds ';' D.
+to  ds -> 'ds ';' D. See DebugDynamicResolution4.jison
+
+Grammar DebugDynamicResolution5.jison contains a solution modifying the lexer.
 
 See section 2.2 "Example: Insufficient Lookahead" in file ppcr:ciaa.pdf for 
 more details.
