@@ -1,0 +1,9 @@
+
+" Load colorscheme
+"set t_Co=256
+"set background=black
+"let g:solarized_termcolors=256
+colorscheme moria
+"colorscheme white
+"colorscheme blue
+
