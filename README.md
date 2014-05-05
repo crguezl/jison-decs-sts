@@ -1,14 +1,14 @@
 This grammar 
 
-  %token D S
+        %token D S
 
-  %%
-  p: ds ';' ss  | ss ;
-  ds: D ';' ds    
-    | D  
-  ;
-  ss: S ';' ss  | S  ;
-  %% 
+        %%
+        p: ds ';' ss  | ss ;
+        ds: D ';' ds    
+          | D  
+        ;
+        ss: S ';' ss  | S  ;
+        %% 
 
 illustrates a typical LALR conflict due to a 
 bad grammar design. The conflict between productions `ds -> 'D ';' ds`
