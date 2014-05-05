@@ -22,5 +22,5 @@ actions to jump over the semicolon.
 
 
 See section 2.2 *"Example: Insufficient Lookahead"* in file 
-[ppcr:ciaa.pdf](https://code.google.com/p/grammar-repository/source/checkout) in the original Google-Code subversion repo for 
+[ppcr_ciaa.pdf](https://code.google.com/p/grammar-repository/source/checkout) in the original Google-Code subversion repo for 
 more details.
