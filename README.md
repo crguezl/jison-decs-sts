@@ -21,6 +21,6 @@ Grammar [DebugDynamicResolutionValladares.y](https://github.com/crguezl/jison-de
 actions to jump over the semicolon.
 
 
-See section 2.2 "Example: Insufficient Lookahead" in file 
+See section 2.2 *"Example: Insufficient Lookahead"* in file 
 [ppcr:ciaa.pdf](https://code.google.com/p/grammar-repository/source/checkout) in the original Google-Code subversion repo for 
 more details.
