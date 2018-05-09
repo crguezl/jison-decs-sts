@@ -2,3 +2,5 @@
 *.tab.c
 *.output
 DebugDynamicResolution*.js
+DsLeftRecSsRightRec.js
+Looking2Lookaheads.js
