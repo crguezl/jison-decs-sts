@@ -22,4 +22,6 @@ end
 desc "borrar ficheros temporales"
 task :clean do
   sh "rm -f *.tab.c"
+  sh "rm -f *.output"
+  sh "rm -f DebugDynamicResolutionConflict.js Looking2Lookaheads.js"
 end
